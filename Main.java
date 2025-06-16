@@ -1,14 +1,9 @@
 // Write your Java code here
 public class Main {
   public static void main(String[] args) {
-    while (true) {
-      System.out.println("Running infinitely...v4");
-      
-      // Optional: Add a small delay to avoid overwhelming the console 
-      try {
-      } catch (InterruptedException e) {
-        e.printStackTrace();
-      }
+    for (int i = 1; i <= 5; i++) {
+      System.out.println("Iteration: " + i);
     }
+    System.out.println("Loop finished!");
   }
 }
